@@ -149,16 +149,14 @@ body{
     background: #FFFFFF;
 }
 
-.papa{
-    border: 2px solid red;
-}
-
 .papa-title{
     font-family: 'Sora', sans-serif;
     font-weight: 900;
     font-size: 16px;
     line-height: 20px;
     color: #000000;
+    margin-top: 8px;
+    margin-bottom: 9px;
 }
 
 .papa-inputs input{
@@ -200,4 +198,49 @@ body{
     font-size: 14px;
     line-height: 18px;
     color: #000000;
+    margin-top: 18px;
+    margin-bottom: 5px;
+}
+
+.mama-inputs input{
+    flex-wrap: wrap;
+    height: 48px;
+    border-radius: 8px;
+    margin: 3px;
+    padding: 0 16px;
+    border: 0.5px solid #AEAEAE;
+}
+
+.mama-inputs text{
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.phone,.tochka{
+    width: 610px;
+}
+.cost, .item, .amount, .tipe, .loan input{
+    width: 169px;
+}
+button{
+    position: absolute;
+    width: 384px;
+    height: 48px;
+    background: #232529;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-left: 19%;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Sora', sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
 }
