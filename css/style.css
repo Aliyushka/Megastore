@@ -194,3 +194,10 @@ body{
     width: 280px;
 }
 
+.mama-title{
+    font-family: 'Sora', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
