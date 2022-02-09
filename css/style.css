@@ -123,4 +123,33 @@ a{
     text-align: center;
     color: #FFFFFF;
 }
-/*//////////////////////////////////////////*/
+/*FORM2*/
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.main2{
+    background-color: black;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.window2{
+    border-radius: 8px;
+    position: absolute;
+    width: 640px;
+    height: 496px;
+    color: black;
+    padding: 40px 24px;
+    background: #FFFFFF;
+}
+
+.papa{
+    border: 2px solid red;
+
+}
