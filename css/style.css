@@ -234,6 +234,24 @@ button{
     margin-top: 30px;
     margin-left: 19%;
 }
+.chekmark, .chekmark2{
+    position: relative;
+}
+
+.chekmark img, .chekmark2 img{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+}
+.chekmark img{
+    top: 14px;
+    margin-left: -38px;
+}
+
+.chekmark2 img{
+    top: 18px;
+    margin-left: 610px;
+}
 
 a{
     text-decoration: none;
