@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: black;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.window{
+    border-radius: 8px;
+    position: absolute;
+    width: 664px;
+    color: black;
+    padding: 20px;
+    background-color: white;
+}
+.block-1{
+    display: flex;
+    flex-wrap: wrap;
+}
+.birthday,.issue{
+    position: relative;
+}
+.birthday img, .issue img{
+    position: absolute;
+    right: 13px;
+}
+.input{
+    width: 450px;
+}
