@@ -75,10 +75,9 @@ body{
     border: 0.5px solid #AEAEAE;
     padding: 0 16px;
     margin-top: 15px;
-
 }
 
-.text input{
+.place input, .issue1 input{
     width: 384px;
 }
 
