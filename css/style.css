@@ -224,6 +224,39 @@ body{
 .cost, .item, .amount, .tipe, .loan input{
     width: 169px;
 }
+
+.chekmark, .chekmark2, .chekmark3{
+    flex-wrap: wrap;
+    height: 48px;
+    border-radius: 8px;
+    margin: 3px;
+    border: 0.5px solid #AEAEAE;
+}
+
+select{
+    font-family: 'Sora', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0 14px;
+    color: gray;
+}
+
+ option{
+    width: 200px;
+}
+.selects{
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+.chekmark, .chekmark2{
+    width: 202px;
+}
+.chekmark3{
+    width: 900px;
+}
+
 button{
     position: absolute;
     width: 384px;
@@ -232,24 +265,6 @@ button{
     border-radius: 4px;
     margin-top: 30px;
     margin-left: 19%;
-}
-.chekmark, .chekmark2{
-    position: relative;
-}
-
-.chekmark img, .chekmark2 img{
-    position: absolute;
-    width: 24px;
-    height: 24px;
-}
-.chekmark img{
-    top: 14px;
-    margin-left: -38px;
-}
-
-.chekmark2 img{
-    top: 18px;
-    margin-left: 610px;
 }
 
 a{
@@ -261,6 +276,5 @@ a{
     text-align: center;
     color: #FFFFFF;
 }
-
 
 
